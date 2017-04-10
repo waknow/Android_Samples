@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Static</string>
+    <string name="hello">Hello</string>
+    <string name="other">Other</string>
+</resources>
