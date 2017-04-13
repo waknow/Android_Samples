@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Config Change</string>
+    <string name="view">View</string>
+    <string name="pick">Pick</string>
+</resources>
