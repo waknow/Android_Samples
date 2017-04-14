@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Retain</string>
+    <string name="pick">Pick</string>
+    <string name="view">View</string>
+</resources>
