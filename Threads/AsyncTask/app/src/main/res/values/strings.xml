@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Async Task</string>
+    <string name="done">Task is Completed</string>
+</resources>
