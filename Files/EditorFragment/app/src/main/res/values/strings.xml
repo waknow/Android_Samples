@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Editor Fragment</string>
+    <string name="msg_sorry">Sorry, we can not without relate permissions.</string>
+    <string name="internal">Internal</string>
+    <string name="external">External</string>
+    <string name="pub">Pub</string>
+</resources>
