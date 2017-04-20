@@ -1,6 +1,8 @@
 package com.example.administrator.editorfragment;
 
 import android.app.Fragment;
+import android.content.Context;
+import android.media.MediaScannerConnection;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -46,7 +48,7 @@ public class EditorFragment extends LifecycleLoggingFragment {
     @Override
     public void onPause() {
         if (loaded) {
-            new SaveThread(editor.getText().toString(),
+            new SaveThread(getActivity().getApplicationContext(), editor.getText().toString(),
                     (File) getArguments().getSerializable(KEY_FILE))
                     .start();
         }
@@ -121,8 +123,10 @@ public class EditorFragment extends LifecycleLoggingFragment {
     private static class SaveThread extends Thread {
         private String text;
         private File fileToEdit;
+        private Context ctx;
 
-        public SaveThread(String text, File fileToEdit) {
+        public SaveThread(Context ctx, String text, File fileToEdit) {
+            this.ctx = ctx;
             this.text = text;
             this.fileToEdit = fileToEdit;
         }
@@ -139,6 +143,9 @@ public class EditorFragment extends LifecycleLoggingFragment {
                     writer.write(this.text);
                     writer.flush();
                     fos.getFD().sync();
+                } finally {
+                    String[] paths = new String[]{fileToEdit.getAbsolutePath()};
+                    MediaScannerConnection.scanFile(ctx, paths, null, null);
                 }
             } catch (IOException e) {
                 Log.e(getClass().getSimpleName(), "Exception writing file", e);
