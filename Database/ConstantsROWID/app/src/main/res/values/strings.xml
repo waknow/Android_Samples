@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Constants ROWID</string>
+    <string name="tile">Title</string>
+    <string name="value">Value</string>
+    <string name="add">Add</string>
+    <string name="add_title">Add</string>
+    <string name="add_buton">Add</string>
+    <string name="cancel">Cancel</string>
+</resources>
