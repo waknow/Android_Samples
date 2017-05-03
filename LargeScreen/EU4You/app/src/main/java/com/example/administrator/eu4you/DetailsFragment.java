@@ -1,5 +1,7 @@
 package com.example.administrator.eu4you;
 
+import android.annotation.TargetApi;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebResourceRequest;
@@ -24,6 +26,7 @@ public class DetailsFragment extends WebViewFragment {
     }
 
     private static class URLHandler extends WebViewClient {
+        @TargetApi(Build.VERSION_CODES.N)
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
             return true;
