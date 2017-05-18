@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Observable</string>
+    <string name="done">Task Completed</string>
+</resources>
