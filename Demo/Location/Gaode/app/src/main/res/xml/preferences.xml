@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:id="@+id/pref_once"
+        android:key= "@string/pref_once"
+        android:title="Once"
+        android:summary="Just locate once"
+        android:defaultValue="false"/>
+    <CheckBoxPreference
+        android:key = "@string/pref_once_relocate"
+        android:title="Relocate"
+        android:summary="Show the Relocate button"
+        android:dependency="pref_once"/>
+    <CheckBoxPreference
+        android:key="@string/pref_once_latest"
+        android:dependency="pref_once"
+        android:title="Latest Location"
+        android:summary="Show the latest location"/>
+    <ListPreference
+        android:key="@string/pref_interval"
+        android:title="Interval"
+        android:entries="@array/interval_entries"
+        android:entryValues="@array/interval_values"
+        android:defaultValue="2"/>
+</PreferenceScreen>

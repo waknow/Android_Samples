@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Location</string>
+    <string name="text_view_init">Initializing...</string>
+    <string name="menu_title">Setting</string>
+    <string name="pref_once">pref_once</string>
+    <string name="pref_once_relocate">pref_once_relocate</string>
+    <string name="pref_once_latest">pref_once_latest</string>
+    <string name="pref_interval">pref_interval</string>
+    <string name="button_relocate">Relocate</string>
+</resources>
