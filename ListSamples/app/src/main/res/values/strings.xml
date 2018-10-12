@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">List Samples</string>
+    <string name="activity_list">List</string>
+    <string name="activity_check_list">Check List</string>
+    <string name="activity_spinner">Spinner</string>
+    <string name="activity_grid">Grid</string>
+    <string name="activity_auto_complete">Auto Complete</string>
+    <string name="icon">Icon</string>
+    <string name="size_template">Size: %d</string>
+    <string name="activity_customized_adapter">Customized Adapter</string>
+    <string name="activity_view_holder">View Holder</string>
+</resources>
