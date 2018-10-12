@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Remote Debug WebView</string>
+    <string name="edit_url">Enter a url</string>
+    <string name="button_open">Open</string>
+</resources>
