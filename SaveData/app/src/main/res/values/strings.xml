@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">02.SaveData</string>
+    <string name="main_intro">Data Save Test</string>
+    <string name="btn_save_with_shared_preferences">Shared Preference</string>
+    <string name="btn_save_with_file_inner_file">File.Inner.File</string>
+    <string name="btn_save_with_file_inner_cache">File.Inner.Cache</string>
+    <string name="btn_save_with_file_external_file">File.External.File</string>
+    <string name="btn_save_with_file_external_cache">File.External.Cache</string>
+    <string name="btn_save_with_sql">SQL</string>
+
+    <string name="key_preference">com.example.jove.a02savedata.preference</string>
+    <string name="key_preference_save_date">com.example.jove.a02savedata.preference.save_date</string>
+    <string name="key_preference_open_count">com.example.jove.a02savedata.preference.open_count</string>
+    <string name="title_activity_save">SaveActivity</string>
+</resources>
