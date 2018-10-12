@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">04.Permissions</string>
+    <string name="main_btn_check_permission_read_contacts">Check Read Contacts</string>
+</resources>
