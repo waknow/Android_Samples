@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">03.Intent</string>
+    <string name="main_intro">Start Other Activity Test</string>
+    <string name="main_btn_start_others">Start Others Activity</string>
+    <string name="main_btn_start_others_with_result">Start Others With Result</string>
+    <string name="main_btn_start_self">Start Self Activity</string>
+    <string name="main_btn_share">Share</string>
+
+    <string name="others_btn_map">Map</string>
+    <string name="others_btn_web_page">Web Page</string>
+    <string name="others_btn_open_email">Email</string>
+    <string name="others_btn_open_email_chooser">Email With Chooser</string>
+    <string name="others_btn_open_calendar">Calendar</string>
+
+    <string name="others_with_result_pick_contact">Pick Contact</string>
+</resources>
